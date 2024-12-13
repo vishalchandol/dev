@@ -239,7 +239,7 @@ output "public_ip" {
   value = azurerm_public_ip.pubIP.ip_address
 }
 
-//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
+
 
 /***resource "azurerm_linux_virtual_machine_scale_set" "vms1" {
   name = "vms1"
