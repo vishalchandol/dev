@@ -3,7 +3,7 @@ provider "azurerm" {
     
   }
 }
-
+#new comit check
 resource "azurerm_resource_group" "myrg" {
   name = "rg1"
   location = "East US"
@@ -224,6 +224,7 @@ resource "azurerm_route" "priv-route-add1" {
   next_hop_type = "Internet"
   next_hop_in_ip_address = azurerm_nat_gateway.ng1.id
   route_table_name = azurerm_route_table.myroutepriv.name
+  
 }
 
 
